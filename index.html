@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name" style="color: black; font-family: outfit;"
+            required>
+        <button id="searchButton">Search</button>
+        <button class="theme-toggle">Theme</button>
+        <div id="weatherResult">
+            <!-- Weather data will be displayed here -->
+        </div>
+        <h1 id="mapTitle" style="display: none;">Map</h1> <!-- Hide map title initially -->
+        <div id="map" style="height: 400px; width: 100%; margin-top: 20px; display: none;"></div>
+        <!-- Hide map initially -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
