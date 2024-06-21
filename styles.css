@@ -68,5 +68,7 @@ button:hover {
 }
 
 .dark-mode cityInput{
-  background: #101010;
+  background: #282828;
+  color: #f2f2f2;
+  border: none;
 }
