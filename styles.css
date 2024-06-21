@@ -67,7 +67,7 @@ button:hover {
   display: none; /* Hide the map title initially */
 }
 
-.dark-mode cityInput{
+.dark-mode #cityInput{
   background: #282828;
   color: #f2f2f2;
   border: none;
