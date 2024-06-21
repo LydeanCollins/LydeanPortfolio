@@ -66,3 +66,7 @@ button:hover {
 #mapTitle {
   display: none; /* Hide the map title initially */
 }
+
+.dark-mode cityInput{
+  background: #101010;
+}
