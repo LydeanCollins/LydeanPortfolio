@@ -60,15 +60,19 @@ button:hover {
 #map {
   width: 100%;
   height: 400px;
-  display: none; /* Hide the map initially */
+  display: none;
 }
 
 #mapTitle {
-  display: none; /* Hide the map title initially */
+  display: none;
 }
 
-.dark-mode #cityInput{
-  background: #282828;
+.dark-mode #cityInput {
+  background: #222222;
   color: #f2f2f2;
   border: none;
+}
+
+#cityInput {
+  background: #f2f2f2;
 }
